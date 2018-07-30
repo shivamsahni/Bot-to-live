@@ -58,4 +58,5 @@ def add_header(response):
     response.headers['Cache-Control'] = 'public, max-age=0'
     return response
 
-app.run()      # commented because of heroku
+
+#app.run()    
