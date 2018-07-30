@@ -8,7 +8,8 @@ setup(
     install_requires = [
         'Flask',
         'pymessenger',
-        'gunicorn'
+        'gunicorn',
+        'wit'
     ]
 
 )
